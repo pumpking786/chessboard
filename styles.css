@@ -6,8 +6,8 @@ body{
 .chessboard{
     border: 2px solid black;
     margin-top: 20px;
-    width: 640px;
-    height: 640px;
+    width: 600px;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -19,11 +19,27 @@ body{
 }
 .a{
     background-color: white;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
 .b{
     background-color: green;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70x;
+}
+@media only screen and (max-width:650px){
+    .chessboard{
+        height: 561px;
+    }
+    .a{
+        width: 70px;
+        height: 70px;
+    }
+    .b{
+        width: 70px;
+        height:70px;
+    }
+    .chessboard div{
+        font-size: 50px;
+    }
 }
