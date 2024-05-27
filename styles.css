@@ -29,17 +29,17 @@ body{
 }
 @media only screen and (max-width:650px){
     .chessboard{
-        height: 561px;
+        height: 440px;
     }
     .a{
         width: 70px;
-        height: 70px;
+        height: 55px;
     }
     .b{
         width: 70px;
-        height:70px;
+        height:55px;
     }
     .chessboard div{
-        font-size: 50px;
+        font-size: 45px;
     }
 }
