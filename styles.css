@@ -1,11 +1,11 @@
 body{
-    display: flex;
+    display: grid;
     text-align: center;
     justify-content: center;
 }
 .chessboard{
     border: 2px solid black;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 600px;
     height: 600px;
     display: flex;
@@ -27,19 +27,37 @@ body{
     width: 70px;
     height: 70x;
 }
-@media only screen and (max-width:550px){
+@media only screen and (max-width:610px){
     .chessboard{
+        width: 400px;
         height: 440px;
     }
     .a{
-        width: 70px;
+        width: 50px;
         height: 55px;
     }
     .b{
-        width: 70px;
+        width: 50px;
         height:55px;
     }
     .chessboard div{
         font-size: 45px;
+    }
+}
+@media only screen and (max-width:430px){
+    .chessboard{
+        width: 320px;
+        height: 360px;
+    }
+    .a{
+        width: 50px;
+        height: 45px;
+    }
+    .b{
+        width: 50px;
+        height:45px;
+    }
+    .chessboard div{
+        font-size: 35px;
     }
 }
